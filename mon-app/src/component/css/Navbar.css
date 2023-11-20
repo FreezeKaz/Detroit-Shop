@@ -1,0 +1,27 @@
+#title {
+  width: 40%;
+  height: 40%;
+  margin-right: 30%;
+}
+
+.button {
+  color: #fff;
+  background: transparent;
+  border: none;
+  display: inline;
+  margin-top: none !important;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 40px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#Cart {
+  color: #00acfc;
+  width: 3%;
+  height: 3%;
+}

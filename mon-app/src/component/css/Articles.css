@@ -1,0 +1,99 @@
+/*--------------------
+Shop Card
+---------------------*/
+.shop-card {
+
+  width: auto;
+  background: rgba(245,245,245,0.1);
+  box-shadow: 0 10px 20px rgba(0,0,0,.3);
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  z-index: 2;
+}
+
+.figure {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  outline: none!important;
+}
+
+.title {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.desc {
+  font-size: 17px;
+  opacity: .8;
+  margin-bottom: 3px;
+}
+
+.cta {
+  padding: 20px 20px 5px;
+}
+.cta::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+.price {
+  float: left;
+  color: #00acfc;
+  font-size: 22px;
+  font-weight: 900;
+  padding-top: 2px;
+  transition: color .3s ease-in-out;
+  margin-top: 4px;
+}
+
+.myButton {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #00acfc;
+  padding: 12px 18px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  line-height: .95;
+  border: none;
+  background: none;
+  outline: none;
+  border: 1px solid #00acfc;
+  border-radius: 20px;
+  overflow: hidden;
+  
+}
+
+  
+.myButton:hover {
+  color: #fff!important;
+  border: 1px solid transparent!important;
+  opacity: 1;
+  background: #00acfc;
+  
+}
+
+.modal-content {
+  color: black !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: rgb(53, 68, 80) !important;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}     

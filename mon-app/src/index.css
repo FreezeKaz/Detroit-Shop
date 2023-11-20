@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./img/background.jpg");
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0
+}
+
+.form-control {
+  display: block;
+  align-items: center !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(255, 255, 255, 0.2) !important;
+
+}
+
+.input-group-text {
+  color: #ffffff !important;
+  text-align: center !important;
+  background-color: rgb(255, 255, 255, 0.1) !important;
+  border: none !important;
+  margin-left: 55px !important;
+}
+
+.input-group>.form-control, .input-group>.form-select {
+  flex: none !important;
+  width: 20% !important;
+  border: none !important;
+}
+
+.Filter .btn:after {
+  content: none !important;
+  padding: 0.5em;
+  position: relative;
+  right: 0;
+  transition: all 0.15s linear;
+}
+
+.Filter .btn:hover {
+  background: #00acfc !important;
+
+}

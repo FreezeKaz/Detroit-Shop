@@ -1,0 +1,8 @@
+.Carousel{
+  width: 99%;
+}
+
+.carousel-inner img {
+  margin: auto;
+  width: 80%;
+} 
